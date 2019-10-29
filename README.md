@@ -13,11 +13,11 @@ O desenvolvimento dos serviços BNAFAR está seguindo as seguintes etapas:
 A segunda e quarta etapas acima são de responsabilidade do Datasus.
 A primeira e terceira etapa são de responsabilidade dos seguintes entes:
 1. [Departamento de Assistência Farmacêutica e Insumos Estratégicos do Ministério da Saúde (DAF/SCTIE/MS)](http://www.saude.gov.br/assistencia-farmaceutica)
-2. Secretaria Estaduais de Saúde:
+2. Secretarias Estaduais de Saúde:
     - Minas Gerais
     - Paraná
     - São Paulo
-6. Secretaria Municipais de Saúde:
+6. Secretarias Municipais de Saúde:
     - Aquiraz/CE
     - Barão de Cocais/MG
     - Blumenau/SC
@@ -29,7 +29,7 @@ A primeira e terceira etapa são de responsabilidade dos seguintes entes:
     - Ubiratã/PR
     - Vitória/ES
 ## Cronograma
-A perspectiva do Datasus é que a disponibilização dos serviços em ambiente de produção no primeiro trimestre de 2020. 
+A perspectiva do Datasus é disponibilizar os serviços em ambiente de produção no primeiro trimestre de 2020. 
 Até lá, toda a documentação dos serviços será disponibilizada aqui no GitHub. 
 ## SOAP x REST
 Veja as principais diferenças entre as versões [SOAP](https://github.com/wsbndaf/Webservice) e REST dos serviços da BNAFAR:
@@ -53,5 +53,13 @@ O distribuidor de medicamento (campo obrigatório para as entradas) poderá ser 
 O médico prescritor dos medicamentos do Componente Especializado da Assistência Farmacêutica (CEAF) também poderá ser identificado pelo CNS ou CPF, e não mais apenas pelo CRM.
 #### Retificação
 Os registros a serem alterados (retificados) não ganharão um novo código de registro interno no web service. Atualmente no SOAP, sempre que um registro é alterado (retificado) o mesmo é inativado e é gerado um novo código de registro. No modelo REST, o registro original será atualizado e não será gerado um novo código de registro.
+## Documentação
+Os clientes que irão integrar com os serviços contarão com a seguinte documentação:
+#### Swagger
+#### Manual de integração
 ## Maiores informações sobre a BNAFAR
 :link: Acesse o sítio eletrônico da BNAFAR no [Portal do Ministério da Saúde](http://www.saude.gov.br/assistencia-farmaceutica/base-nacional-de-dados) e obtenha todas as informações sobre a Base.
+## Contato
+:envelope: ws.daf@saude.gov.br
+
+:telephone_receiver: 136
