@@ -6,12 +6,11 @@ Este projeto é o repositório dos serviços BNAFAR desenvolvidos em REST. Esses
 ## Desenvolvimento
 O desenvolvimento dos serviços BNAFAR está seguindo as seguintes etapas:
 - [x] Elaboração e homologação dos artefatos
-- [ ] Desenvolvimento da API
-- [ ] Homologação da API
+- [ ] Desenvolvimento e homologação da API
 - [ ] Disponibilização em ambiente de produção
 
-A segunda e quarta etapas acima são de responsabilidade do Datasus.
-A primeira e terceira etapa são de responsabilidade dos seguintes entes:
+O Datasus estará atuando em todas as etapas acima.
+A primeira e segunda etapa são de responsabilidade dos seguintes entes:
 1. [Departamento de Assistência Farmacêutica e Insumos Estratégicos do Ministério da Saúde (DAF/SCTIE/MS)](http://www.saude.gov.br/assistencia-farmaceutica)
 2. Secretarias Estaduais de Saúde:
     - Minas Gerais
