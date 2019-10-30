@@ -1,4 +1,4 @@
-# <img src="http://www.saude.gov.br/images/img2/logo-base-nacional.png" height="180">
+# <img src="https://github.com/CGMPAF/ServicosBnafar/blob/master/image/image_bnafar.png?raw=true" height="230">
 # Serviços BNAFAR
 Serviços da Base Nacional de Dados de Ações e Serviços da Assistência Farmacêutica - BNAFAR
 ## Nova versão REST
