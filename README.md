@@ -63,7 +63,7 @@ Os usuários que já possuem acesso ao web service SOAP não precisarão solicit
 Os clientes que irão integrar com os serviços contarão com a seguinte documentação:
 #### Swagger
 #### Wiki
-No [wiki do projeto](https://github.com/CGMPAF/ServicosBnafar/wiki/Wiki-Servi%C3%A7os-BNAFAR) estão dispostas todas as informações, regras e o dicionário de dados para que os usuários possam ralizar a integração com os serviços BNAFAR.
+No [wiki do projeto](https://github.com/CGMPAF/ServicosBnafar/wiki) estão dispostas todas as informações, regras e o dicionário de dados para que os usuários possam ralizar a integração com os serviços BNAFAR.
 ## Maiores informações sobre a BNAFAR
 :link: Acesse o sítio eletrônico da BNAFAR no [Portal do Ministério da Saúde](http://www.saude.gov.br/assistencia-farmaceutica/base-nacional-de-dados) e obtenha todas as informações sobre a Base.
 ## Contato
