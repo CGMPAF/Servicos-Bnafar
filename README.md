@@ -52,10 +52,17 @@ O distribuidor de medicamento (campo obrigatório para as entradas) poderá ser 
 O médico prescritor dos medicamentos do Componente Especializado da Assistência Farmacêutica (CEAF) também poderá ser identificado pelo CNS ou CPF, e não mais apenas pelo CRM.
 #### Retificação
 Os registros a serem alterados (retificados) não ganharão um novo código de registro interno no web service. Atualmente no SOAP, sempre que um registro é alterado (retificado) o mesmo é inativado e é gerado um novo código de registro. No modelo REST, o registro original será atualizado e não será gerado um novo código de registro.
+## Solicitação de acesso
+A solicitação de acesso para a transmissão dos dados pode ser realizada pelo gestor local ou pela área de TI. O Ministério da Saúde disponibiliza acessos aos ambientes de produção (dados reais) e de homologação (ambiente de testes para integração). Para solicitar acesso o usuário deverá realizar os passos abaixo, conforme especificado no [wiki]([wiki do projeto](https://github.com/CGMPAF/ServicosBnafar/wiki/Solicita%C3%A7%C3%A3o-de-acesso).
+1. Cadastrar o usuário no SCPA, caso ainda não possua;
+2. Solicitar acesso ao projeto dos serviços BNAFAR;
+3. Anexar o ofício assinado pelo Secretário de Saúde no Formsus.
+Os usuários que já possuem acesso ao web service SOAP não precisarão solicitar acesso ao serviços BNAFAR.
 ## Documentação
 Os clientes que irão integrar com os serviços contarão com a seguinte documentação:
 #### Swagger
-#### Manual de integração
+#### Wiki
+No [wiki do projeto](https://github.com/CGMPAF/ServicosBnafar/wiki/Wiki-Servi%C3%A7os-BNAFAR) estão dispostas todas as informações, regras e o dicionário de dados para que os usuários possam ralizar a integração com os serviços BNAFAR.
 ## Maiores informações sobre a BNAFAR
 :link: Acesse o sítio eletrônico da BNAFAR no [Portal do Ministério da Saúde](http://www.saude.gov.br/assistencia-farmaceutica/base-nacional-de-dados) e obtenha todas as informações sobre a Base.
 ## Contato
